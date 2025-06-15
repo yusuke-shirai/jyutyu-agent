@@ -1,0 +1,140 @@
+```json
+{
+  "order_details": {
+    "order_number": "2642",
+    "issue_date": "平成28年11月7日",
+    "customer": "株式会社○○住宅",
+    "customer_address": "596-0822\n大阪府岸和田市額原町1234",
+    "customer_phone": "072-123-4567",
+    "customer_fax": "072-123-8901",
+    "recipient": "TOTO兵庫販売御中",
+    "project_name": "三宅 勇様邸工事",
+    "project_details": "住設機器工事",
+    "completion_date": "1/18最終見積り分",
+    "work_location": "兵庫県尼崎市杭瀬本町2丁目2番24号",
+    "total_amount": "840,000",
+    "labor_cost": "800,000",
+    "consumption_tax": "40,000",
+    "items": [
+      {
+        "item_no": "1",
+        "item_name": "システムキッチン TOTO",
+        "item_description": "1型2550",
+        "quantity": "1.00",
+        "unit": "セット",
+        "unit_price": "355,000",
+        "amount": "355,000"
+      },
+      {
+        "item_no": "2",
+        "item_name": "ユニットバス TOTO",
+        "item_description": "サザナ1616",
+        "quantity": "1.00",
+        "unit": "セット",
+        "unit_price": "285,000",
+        "amount": "285,000"
+      },
+      {
+        "item_no": "3",
+        "item_name": "2階トイレ TOTO",
+        "item_description": null,
+        "quantity": "1.00",
+        "unit": "式",
+        "unit_price": "76,350",
+        "amount": "76,350"
+      },
+      {
+        "item_no": "4",
+        "item_name": "1階トイレ TOTO",
+        "item_description": null,
+        "quantity": "1.00",
+        "unit": "式",
+        "unit_price": "94,400",
+        "amount": "94,400"
+      },
+      {
+        "item_no": "5",
+        "item_name": "値引き",
+        "item_description": null,
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "amount": "-10,750"
+      }
+    ],
+    "total_amount_items": "800,000"
+  }
+}
+```
+================================== Ai Message ==================================
+
+The business information extracted from the file is:
+
+```json
+{
+  "order_details": {
+    "order_number": "2642",
+    "issue_date": "平成28年11月7日",
+    "customer": "株式会社○○住宅",
+    "customer_address": "596-0822\n大阪府岸和田市額原町1234",
+    "customer_phone": "072-123-4567",
+    "customer_fax": "072-123-8901",
+    "recipient": "TOTO兵庫販売御中",
+    "project_name": "三宅 勇様邸工事",
+    "project_details": "住設機器工事",
+    "completion_date": "1/18最終見積り分",
+    "work_location": "兵庫県尼崎市杭瀬本町2丁目2番24号",
+    "total_amount": "840,000",
+    "labor_cost": "800,000",
+    "consumption_tax": "40,000",
+    "items": [
+      {
+        "item_no": "1",
+        "item_name": "システムキッチン TOTO",
+        "item_description": "1型2550",
+        "quantity": "1.00",
+        "unit": "セット",
+        "unit_price": "355,000",
+        "amount": "355,000"
+      },
+      {
+        "item_no": "2",
+        "item_name": "ユニットバス TOTO",
+        "item_description": "サザナ1616",
+        "quantity": "1.00",
+        "unit": "セット",
+        "unit_price": "285,000",
+        "amount": "285,000"
+      },
+      {
+        "item_no": "3",
+        "item_name": "2階トイレ TOTO",
+        "item_description": null,
+        "quantity": "1.00",
+        "unit": "式",
+        "unit_price": "76,350",
+        "amount": "76,350"
+      },
+      {
+        "item_no": "4",
+        "item_name": "1階トイレ TOTO",
+        "item_description": null,
+        "quantity": "1.00",
+        "unit": "式",
+        "unit_price": "94,400",
+        "amount": "94,400"
+      },
+      {
+        "item_no": "5",
+        "item_name": "値引き",
+        "item_description": null,
+        "quantity": null,
+        "unit": null,
+        "unit_price": null,
+        "amount": "-10,750"
+      }
+    ],
+    "total_amount_items": "800,000"
+  }
+}
+```
