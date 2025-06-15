@@ -3,3 +3,5 @@
 .files
 .chainlit
 .pyc
+.DS_Store
+kintone-mcp-server
